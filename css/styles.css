@@ -1,0 +1,228 @@
+:root {
+  --web-background: #ffffff;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --hero-background: #2e2f42;
+  --modal-overlay: rgba(46, 47, 66, 0, 4);
+}
+
+body {
+  background-color: var(--web-background);
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark);
+}
+
+/* header */
+/* site-nav */
+.site-nav .link {
+  color: var(--dark);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primary-brand);
+}
+.site-nav {
+  list-style: none;
+}
+.site-nav .link.current {
+  color: var(--pressed-state);
+}
+/* logo */
+.logo {
+  font-family: 'raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-web {
+  color: var(--primary-brand);
+}
+.logo-studio {
+  color: var(--hero-background);
+}
+/* address */
+.address {
+  list-style: none;
+}
+.address .adress-link {
+  font-style: normal;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.address .adress-link:hover,
+.address .adress-link:focus {
+  color: var(--pressed-state);
+}
+/* footer */
+.footer-main {
+  background-color: var(--dark);
+}
+.footer-logo {
+  height: 21px;
+}
+.footer-logo-studio {
+  color: var(--light);
+}
+.footer-paragraph {
+  color: var(--accent);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* index.html */
+/* main */
+.section-title {
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+/* hero */
+.hero {
+  background-color: var(--dark);
+}
+.hero-title {
+  color: var(--web-background);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.button {
+  color: var(--web-background);
+  background-color: var(--primary-brand);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+.button:hover {
+  background-color: var(--pressed-state);
+}
+/* section 2 */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list {
+  list-style: none;
+}
+.features-list-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features-list-text {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* section 3 */
+
+/* section 4 */
+.team-section {
+  background-color: var(--light);
+}
+.team-cards {
+  background-color: var(--web-background);
+}
+.team-names {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.team-workplace {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* --------------------------------------------------------- */
+/* -------------------portfolio----------------------------- */
+/* --------------------------------------------------------- */
+.portfolio-title {
+  display: none;
+}
+.portfolio-list-title {
+  list-style: none;
+}
+.portfolio-button {
+  background-color: var(--light);
+  cursor: pointer;
+  color: var(--primary-brand);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--pressed-state);
+  color: var(--web-background);
+}
+
+.portfolio-exaples {
+  background-color: var(--web-background);
+}
+.portfolio-list {
+  list-style: none;
+  border: 1px solid var(--light);
+}
+.portfolio-link-examples {
+  text-decoration: none;
+}
+.portfolio-exaples-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+  letter-spacing: 0.02em;
+}
+.examles-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  letter-spacing: 0.02em;
+}
